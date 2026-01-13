@@ -1,0 +1,254 @@
+{
+  "dataTable": {
+    "defaultProps": {
+      "loading": "Đang tải dữ liệu...",
+      "noData": "Không có dữ liệu",
+      "recordsPerPage": "Số bản ghi trên trang"
+    },
+    "viewOptions": {
+      "columnsToggle": "Ẩn/Hiện cột"
+    },
+    "sortOptions": {
+      "sort": "Sắp xếp",
+      "addSort": "Thêm",
+      "resetSort": "Khôi phục",
+      "asc": "Tăng dần",
+      "desc": "Giảm dần"
+    },
+    "searchOptions": {
+      "search": "Tìm kiếm"
+    },
+    "filterOptions": {
+      "resetFilter": "Xóa bộ lọc"
+    }
+  },
+  "validateMessage": {
+    "required": "Trường này là bắt buộc",
+    "onlyNumber": "Trường này phải là số",
+    "email": "Trường này phải là địa chỉ email hợp lệ",
+    "validDatetime": "Trường này phải là ngày giờ hợp lệ",
+    "agreeTerm": "Bạn phải đồng ý với điều khoản và điều kiện",
+    "lte": "Trường này phải nhỏ hơn hoặc bằng {max}",
+    "gte": "Trường này phải lớn hơn hoặc bằng {min}",
+    "passwordNotMatch": "Mật khẩu không khớp"
+  },
+  "navigation": {
+    "todo": "Todo",
+    "admin": {
+      "organization": "Quản lý tổ chức"
+    }
+  },
+  "breadcrumbs": {
+    "todo": "Todo",
+    "user-settings": "Cài đặt tài khoản",
+    "organization": "Tổ chức",
+    "update": "Cập nhật"
+  },
+  "todo": {
+    "btnCreate": "Tạo task",
+    "dataTable": {
+      "code": "Mã task",
+      "title": "Tiêu đề",
+      "priority": "Độ ưu tiên",
+      "estimatedHours": "Thời gian ước tính",
+      "dueDate": "Ngày kết thúc",
+      "status": "Trạng thái",
+      "tags": "Thẻ",
+      "createdAt": "Ngày tạo",
+      "actions": "Hành động",
+      "enum": {
+        "status": {
+          "draft": "Bản nháp",
+          "in_progress": "Đang tiến hành",
+          "completed": "Đã hoàn thành"
+        }
+      }
+    },
+    "create": {
+      "form": {
+        "header": {
+          "title": "Tạo task",
+          "subtitle": "Tạo task mới để quản lý công việc của bạn"
+        },
+        "title": {
+          "label": "Tiêu đề",
+          "placeholder": "Nhập tiêu đề của task"
+        },
+        "priority": {
+          "label": "Độ ưu tiên",
+          "placeholder": "Chọn độ ưu tiên của task"
+        },
+        "estimatedHours": {
+          "label": "Thời gian ước tính"
+        },
+        "dueDate": {
+          "label": "Ngày kết thúc",
+          "placeholder": "Chọn ngày"
+        },
+        "description": {
+          "label": "Mô tả",
+          "placeholder": "Nhập mô tả của task"
+        },
+        "tags": {
+          "label": "Thẻ",
+          "placeholder": "Nhập thẻ của task"
+        },
+        "btnCancel": "Hủy",
+        "btnCreate": "Tạo task"
+      },
+      "successMessage": "Tạo task thành công",
+      "errorMessage": "Có lỗi xảy ra khi tạo task"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "layout": {
+        "title": "Quên mật khẩu",
+        "haveAccount": "Đã có tài khoản?",
+        "signIn": "Đăng nhập"
+      },
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Email của bạn"
+        },
+        "btnSendResetLink": "Gửi liên kết khôi phục mật khẩu"
+      }
+    },
+    "resetPassword": {
+      "layout": {
+        "title": "Khôi phục mật khẩu",
+        "hint": "Nhập mật khẩu mới của bạn"
+      },
+      "form": {
+        "password": {
+          "label": "Mật khẩu",
+          "placeholder": "Mật khẩu của bạn"
+        },
+        "passwordConfirmation": {
+          "label": "Xác nhận mật khẩu",
+          "placeholder": "Nhập lại mật khẩu của bạn"
+        },
+        "btnResetPassword": "Khôi phục mật khẩu"
+      }
+    },
+    "signIn": {
+      "layout": {
+        "title": "Đăng nhập",
+        "createAccount": "Tạo tài khoản",
+        "doNotHaveAccountYet": "Chưa có tài khoản?"
+      },
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Email của bạn"
+        },
+        "password": {
+          "label": "Mật khẩu",
+          "placeholder": "Mật khẩu của bạn"
+        },
+        "rememberMe": "Ghi nhớ phiên đăng nhập",
+        "doForgotPassword": "Quên mật khẩu?",
+        "btnSignIn": "Đăng nhập"
+      }
+    },
+    "signUp": {
+      "layout": {
+        "title": "Tạo tài khoản",
+        "haveAccount": "Đã có tài khoản?",
+        "signIn": "Đăng nhập"
+      },
+      "form": {
+        "name": {
+          "label": "Tên",
+          "placeholder": "Tên của bạn"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Email của bạn"
+        },
+        "password": {
+          "label": "Mật khẩu",
+          "placeholder": "Mật khẩu của bạn"
+        },
+        "passwordConfirmation": {
+          "label": "Xác nhận mật khẩu",
+          "placeholder": "Nhập lại mật khẩu của bạn"
+        },
+        "agreeToTerms": "Tôi đồng ý với điều khoản và điều kiện",
+        "btnSignUp": "Tạo tài khoản"
+      }
+    },
+    "socialProviders": {
+      "orContinueWith": "Hoặc tiếp tục với"
+    },
+    "userButtonMenu": {
+      "userSettings": "Cài đặt tài khoản",
+      "signOut": "Đăng xuất"
+    },
+    "userSettings": {
+      "userInfo": {
+        "title": "Thông tin tài khoản",
+        "email": {
+          "label": "Email",
+          "placeholder": "Email của bạn"
+        },
+        "name": {
+          "label": "Tên",
+          "placeholder": "Tên của bạn"
+        },
+        "btnSave": "Lưu"
+      },
+      "changePassword": {
+        "title": "Thay đổi mật khẩu",
+        "currentPassword": {
+          "label": "Mật khẩu hiện tại",
+          "placeholder": "Mật khẩu hiện tại của bạn"
+        },
+        "newPassword": {
+          "label": "Mật khẩu mới",
+          "placeholder": "Mật khẩu mới của bạn"
+        },
+        "newPasswordConfirmation": {
+          "label": "Xác nhận mật khẩu mới",
+          "placeholder": "Nhập lại mật khẩu mới của bạn"
+        },
+        "btnSave": "Lưu",
+        "btnChangePassword": "Thay đổi mật khẩu"
+      },
+      "socialAccounts": {
+        "title": "Tài khoản mạng xã hội",
+        "btnLink": "Liên kết",
+        "btnUnlink": "Hủy liên kết"
+      },
+      "activeSession": {
+        "title": "Phiên đăng nhập",
+        "revoke": "Xóa phiên"
+      },
+      "userDeletion": {
+        "title": "Xóa tài khoản",
+        "description": "Bạn có chắc chắn muốn xóa tài khoản của mình không?",
+        "modal": {
+          "btnDelete": "Xóa",
+          "title": "Xóa tài khoản",
+          "description": "Bạn có chắc chắn muốn xóa tài khoản của mình không?",
+          "confirm": "Xác nhận",
+          "cancel": "Hủy"
+        }
+      }
+    }
+  },
+  "admin": {
+    "organization": {
+      "form": {
+        "slug": "Slug tổ chức",
+        "name": "Tên tổ chức",
+        "btnUpdate": "Cập nhật",
+        "btnCancel": "Hủy",
+        "btnSave": "Lưu cập nhật",
+        "successMessage": "Cập nhật tổ chức thành công",
+        "errorMessage": "Có lỗi xảy ra khi cập nhật tổ chức: {error}"
+      }
+    }
+  }
+}

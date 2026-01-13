@@ -12,7 +12,6 @@
     "check-types": "turbo check-types"
   },
   "dependencies": {
-    "@nextjs-elysia-turbo/env": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
   },

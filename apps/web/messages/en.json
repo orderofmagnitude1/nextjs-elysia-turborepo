@@ -1,0 +1,254 @@
+{
+  "dataTable": {
+    "defaultProps": {
+      "loading": "Loading...",
+      "noData": "No data",
+      "recordsPerPage": "Records per page"
+    },
+    "viewOptions": {
+      "columnsToggle": "Columns toggle"
+    },
+    "sortOptions": {
+      "sort": "Sort",
+      "addSort": "Add",
+      "resetSort": "Reset",
+      "asc": "Ascending",
+      "desc": "Descending"
+    },
+    "searchOptions": {
+      "search": "Search"
+    },
+    "filterOptions": {
+      "resetFilter": "Reset filter"
+    }
+  },
+  "validateMessage": {
+    "required": "This field is required",
+    "onlyNumber": "This field must be a number",
+    "email": "This field must be a valid email address",
+    "validDatetime": "This field must be a valid datetime",
+    "agreeTerm": "You must agree to the terms and conditions",
+    "lte": "This field must be less than or equal to {max}",
+    "gte": "This field must be greater than or equal to {min}",
+    "passwordNotMatch": "Password does not match"
+  },
+  "navigation": {
+    "todo": "Todo",
+    "admin": {
+      "organization": "Manage organization"
+    }
+  },
+  "breadcrumbs": {
+    "todo": "Todo",
+    "user-settings": "User settings",
+    "organization": "Organization",
+    "update": "Update"
+  },
+  "todo": {
+    "btnCreate": "Create task",
+    "dataTable": {
+      "code": "Task code",
+      "title": "Title",
+      "priority": "Priority",
+      "estimatedHours": "Estimated hours",
+      "dueDate": "Due date",
+      "status": "Status",
+      "tags": "Tags",
+      "createdAt": "Created at",
+      "actions": "Actions",
+      "enum": {
+        "status": {
+          "draft": "Draft",
+          "in_progress": "In progress",
+          "completed": "Completed"
+        }
+      }
+    },
+    "create": {
+      "form": {
+        "header": {
+          "title": "Create task",
+          "subtitle": "Create a new task to manage your work"
+        },
+        "title": {
+          "label": "Title",
+          "placeholder": "Enter the title of the task"
+        },
+        "priority": {
+          "label": "Priority",
+          "placeholder": "Select the priority of the task"
+        },
+        "estimatedHours": {
+          "label": "Estimated hours"
+        },
+        "dueDate": {
+          "label": "Due date",
+          "placeholder": "Select date"
+        },
+        "description": {
+          "label": "Description",
+          "placeholder": "Enter the description of the task"
+        },
+        "tags": {
+          "label": "Tags",
+          "placeholder": "Enter the tags of the task"
+        },
+        "btnCancel": "Cancel",
+        "btnCreate": "Create task"
+      },
+      "successMessage": "Task created successfully",
+      "errorMessage": "An error occurred while creating the task"
+    }
+  },
+  "auth": {
+    "forgotPassword": {
+      "layout": {
+        "title": "Forgot password",
+        "haveAccount": "Have an account?",
+        "signIn": "Sign in"
+      },
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Your email"
+        },
+        "btnSendResetLink": "Send reset link"
+      }
+    },
+    "resetPassword": {
+      "layout": {
+        "title": "Reset password",
+        "hint": "Enter your new password"
+      },
+      "form": {
+        "password": {
+          "label": "Password",
+          "placeholder": "Your password"
+        },
+        "passwordConfirmation": {
+          "label": "Password confirmation",
+          "placeholder": "Enter your password again"
+        },
+        "btnResetPassword": "Reset password"
+      }
+    },
+    "signIn": {
+      "layout": {
+        "title": "Sign in",
+        "createAccount": "Create account",
+        "doNotHaveAccountYet": "Don't have an account?"
+      },
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "Your email"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Your password"
+        },
+        "rememberMe": "Remember me",
+        "doForgotPassword": "Forgot password?",
+        "btnSignIn": "Sign in"
+      }
+    },
+    "signUp": {
+      "layout": {
+        "title": "Create your account",
+        "haveAccount": "Have an account?",
+        "signIn": "Sign in"
+      },
+      "form": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Your email"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Your password"
+        },
+        "passwordConfirmation": {
+          "label": "Password confirmation",
+          "placeholder": "Enter your password again"
+        },
+        "agreeToTerms": "I accept the terms and conditions",
+        "btnSignUp": "Sign up"
+      }
+    },
+    "socialProviders": {
+      "orContinueWith": "Or continue with"
+    },
+    "userButtonMenu": {
+      "userSettings": "User settings",
+      "signOut": "Sign out"
+    },
+    "userSettings": {
+      "userInfo": {
+        "title": "User info",
+        "email": {
+          "label": "Email",
+          "placeholder": "Your email"
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        "btnSave": "Save"
+      },
+      "changePassword": {
+        "title": "Change password",
+        "currentPassword": {
+          "label": "Current password",
+          "placeholder": "Your current password"
+        },
+        "newPassword": {
+          "label": "New password",
+          "placeholder": "Your new password"
+        },
+        "newPasswordConfirmation": {
+          "label": "New password confirmation",
+          "placeholder": "Type your new password again"
+        },
+        "btnSave": "Save",
+        "btnChangePassword": "Change password"
+      },
+      "socialAccounts": {
+        "title": "Social accounts",
+        "btnLink": "Link",
+        "btnUnlink": "Unlink"
+      },
+      "activeSession": {
+        "title": "Active session",
+        "revoke": "Revoke"
+      },
+      "userDeletion": {
+        "title": "User deletion",
+        "description": "Are you sure you want to delete your account? This action is not reversible, please proceed with caution.",
+        "modal": {
+          "btnDelete": "Delete",
+          "title": "Delete account",
+          "description": "Are you sure you want to delete your account? This action is not reversible, please proceed with caution.",
+          "confirm": "Confirm",
+          "cancel": "Cancel"
+        }
+      }
+    }
+  },
+  "admin": {
+    "organization": {
+      "form": {
+        "slug": "Organization slug",
+        "name": "Organization name",
+        "btnUpdate": "Update",
+        "btnCancel": "Cancel",
+        "btnSave": "Save",
+        "successMessage": "Organization updated successfully",
+        "errorMessage": "An error occurred while updating the organization: {error}"
+      }
+    }
+  }
+}
