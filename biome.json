@@ -43,6 +43,10 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "performance": {
+        "noBarrelFile": "off",
+        "noNamespaceImport": "off"
+      },
       "correctness": {
         "useExhaustiveDependencies": "info"
       },

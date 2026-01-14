@@ -26,7 +26,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
-    "@nextjs-elysia-turbo/config": "workspace:*",
+    "@repo/config": "workspace:*",
     "@tanstack/react-query-devtools": "^5.91.1",
     "@types/node": "^20",
     "@types/react": "^19.2.7",
