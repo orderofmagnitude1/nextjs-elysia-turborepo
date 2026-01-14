@@ -1,0 +1,32 @@
+{
+  "name": "@repo/server",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "email": "email dev --dir ./src/emails"
+  },
+  "devDependencies": {
+    "@react-email/preview-server": "^5.2.3",
+    "@repo/config": "workspace:*",
+    "@repo/db": "workspace:*",
+    "@types/nodemailer": "^7.0.5",
+    "@types/react": "^19.2.8",
+    "react-email": "^5.2.3",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@react-email/components": "^1.0.4",
+    "better-auth": "^1.4.12",
+    "drizzle-orm": "^0.45.1",
+    "elysia": "^1.4.19",
+    "nanoid": "^5.1.6",
+    "nodemailer": "^7.0.12",
+    "react": "^19.2.3",
+    "resend": "^6.7.0"
+  }
+}

@@ -47,6 +47,9 @@
         "noBarrelFile": "off",
         "noNamespaceImport": "off"
       },
+      "complexity": {
+        "noStaticOnlyClass": "off"
+      },
       "correctness": {
         "useExhaustiveDependencies": "info"
       },
@@ -60,6 +63,7 @@
         }
       },
       "style": {
+        "noNonNullAssertion": "off",
         "noParameterAssign": "error",
         "useAsConstAssertion": "error",
         "useDefaultParameterLast": "error",
