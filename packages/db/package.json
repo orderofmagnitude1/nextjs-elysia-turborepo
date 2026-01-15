@@ -15,18 +15,18 @@
     "db:studio": "drizzle-kit studio",
     "db:migrate": "drizzle-kit migrate"
   },
+  "dependencies": {
+    "@neondatabase/serverless": "catalog:",
+    "@sinclair/typebox": "^0.34.45",
+    "dotenv": "catalog:",
+    "drizzle-orm": "catalog:",
+    "drizzle-typebox": "^0.3.3",
+    "zod": "catalog:"
+  },
   "devDependencies": {
     "@repo/config": "workspace:*",
     "drizzle-kit": "^0.31.8",
     "tsx": "^4.21.0",
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@neondatabase/serverless": "^1.0.2",
-    "@sinclair/typebox": "^0.34.45",
-    "dotenv": "catalog:",
-    "drizzle-orm": "^0.45.1",
-    "drizzle-typebox": "^0.3.3",
-    "zod": "catalog:"
+    "typescript": "catalog:"
   }
 }
