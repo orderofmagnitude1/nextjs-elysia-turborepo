@@ -1,9 +1,9 @@
 import ProtectedAppShell from "@/components/app-shell/protected-app-shell";
 
 export default async function Layout({
-  children,
+	children,
 }: {
-  children: React.ReactNode;
+	children: React.ReactNode;
 }) {
-  return <ProtectedAppShell>{children}</ProtectedAppShell>;
+	return <ProtectedAppShell>{children}</ProtectedAppShell>;
 }

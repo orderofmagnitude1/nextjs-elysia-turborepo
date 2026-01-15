@@ -8,26 +8,26 @@ import UserDeletion from "./user-deletion";
 import UserInfo from "./user-info";
 
 export default function UserSettings() {
-  return (
-    <ProtectedAppShell>
-      <Container>
-        <CustomBreadcrumbs />
-        <Grid gutter="md">
-          <GridCol span={{ base: 12, md: 6 }}>
-            <Stack gap="md">
-              <UserInfo />
-              <ChangePassword />
-            </Stack>
-          </GridCol>
-          <GridCol span={{ base: 12, md: 6 }}>
-            <Stack gap="md">
-              <SocialAccount />
-              <ActiveSession />
-              <UserDeletion />
-            </Stack>
-          </GridCol>
-        </Grid>
-      </Container>
-    </ProtectedAppShell>
-  );
+	return (
+		<ProtectedAppShell>
+			<Container>
+				<CustomBreadcrumbs />
+				<Grid gutter="md">
+					<GridCol span={{ base: 12, md: 6 }}>
+						<Stack gap="md">
+							<UserInfo />
+							<ChangePassword />
+						</Stack>
+					</GridCol>
+					<GridCol span={{ base: 12, md: 6 }}>
+						<Stack gap="md">
+							<SocialAccount />
+							<ActiveSession />
+							<UserDeletion />
+						</Stack>
+					</GridCol>
+				</Grid>
+			</Container>
+		</ProtectedAppShell>
+	);
 }

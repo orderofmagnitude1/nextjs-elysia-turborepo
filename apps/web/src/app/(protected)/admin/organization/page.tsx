@@ -5,12 +5,12 @@ import { SkeletonPage } from "@/components/skeleton";
 import { OrganizationGrid } from "./grid";
 
 export default function OrganizationPage() {
-  return (
-    <Container fluid>
-      <CustomBreadcrumbs />
-      <Suspense fallback={<SkeletonPage />}>
-        <OrganizationGrid />
-      </Suspense>
-    </Container>
-  );
+	return (
+		<Container fluid>
+			<CustomBreadcrumbs />
+			<Suspense fallback={<SkeletonPage />}>
+				<OrganizationGrid />
+			</Suspense>
+		</Container>
+	);
 }

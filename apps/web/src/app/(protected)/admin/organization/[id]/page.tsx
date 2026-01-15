@@ -5,12 +5,12 @@ import { SkeletonForm } from "@/components/skeleton";
 import OrganizationForm from "./form";
 
 export default function OrganizationDetailPage() {
-  return (
-    <Container>
-      <CustomBreadcrumbs />
-      <Suspense fallback={<SkeletonForm />}>
-        <OrganizationForm />
-      </Suspense>
-    </Container>
-  );
+	return (
+		<Container>
+			<CustomBreadcrumbs />
+			<Suspense fallback={<SkeletonForm />}>
+				<OrganizationForm />
+			</Suspense>
+		</Container>
+	);
 }
