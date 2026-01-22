@@ -76,3 +76,15 @@ export function SkeletonPage() {
 		</Stack>
 	);
 }
+
+export function DataTableSkeleton() {
+	return (
+		<>
+			<Skeleton height={40} radius={0} />
+			<Divider />
+			<Skeleton height={320} radius={0} />
+			<Divider />
+			<Skeleton height={44} radius={0} />
+		</>
+	);
+}

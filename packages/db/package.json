@@ -17,10 +17,10 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "catalog:",
-    "@sinclair/typebox": "^0.34.45",
+    "@sinclair/typebox": "catalog:",
     "dotenv": "catalog:",
     "drizzle-orm": "catalog:",
-    "drizzle-typebox": "^0.3.3",
+    "drizzle-typebox": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {

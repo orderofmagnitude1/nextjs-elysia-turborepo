@@ -1,12 +1,10 @@
 {
   "dataTable": {
-    "defaultProps": {
-      "loading": "Loading...",
-      "noData": "No data",
-      "recordsPerPage": "Records per page"
+    "searchOptions": {
+      "search": "Search"
     },
-    "viewOptions": {
-      "columnsToggle": "Columns toggle"
+    "filterOptions": {
+      "resetFilter": "Reset filter"
     },
     "sortOptions": {
       "sort": "Sort",
@@ -15,11 +13,18 @@
       "asc": "Ascending",
       "desc": "Descending"
     },
-    "searchOptions": {
-      "search": "Search"
+    "viewOptions": {
+      "columnsToggle": "Columns toggle"
     },
-    "filterOptions": {
-      "resetFilter": "Reset filter"
+    "paginationOptions": {
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of"
+    },
+    "defaultProps": {
+      "loading": "Loading...",
+      "noData": "No data",
+      "recordsPerPage": "Records per page"
     }
   },
   "validateMessage": {
@@ -58,7 +63,7 @@
       "actions": "Actions",
       "enum": {
         "status": {
-          "draft": "Draft",
+          "pending": "Pending",
           "in_progress": "In progress",
           "completed": "Completed"
         }

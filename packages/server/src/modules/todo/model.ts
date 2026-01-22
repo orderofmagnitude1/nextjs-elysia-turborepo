@@ -32,7 +32,6 @@ export const taskModel = {
 // Elysia issue with typebox transform
 
 export const queryParamsElysiaModel = t.Object({
-	sleep: t.Optional(t.Number()),
 	page: t.Optional(t.Integer()),
 	pageSize: t.Optional(t.Integer()),
 	sorts: t.Optional(

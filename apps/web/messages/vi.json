@@ -1,12 +1,10 @@
 {
   "dataTable": {
-    "defaultProps": {
-      "loading": "Đang tải dữ liệu...",
-      "noData": "Không có dữ liệu",
-      "recordsPerPage": "Số bản ghi trên trang"
+    "searchOptions": {
+      "search": "Tìm kiếm"
     },
-    "viewOptions": {
-      "columnsToggle": "Ẩn/Hiện cột"
+    "filterOptions": {
+      "resetFilter": "Xóa bộ lọc"
     },
     "sortOptions": {
       "sort": "Sắp xếp",
@@ -15,11 +13,18 @@
       "asc": "Tăng dần",
       "desc": "Giảm dần"
     },
-    "searchOptions": {
-      "search": "Tìm kiếm"
+    "viewOptions": {
+      "columnsToggle": "Ẩn/Hiện cột"
     },
-    "filterOptions": {
-      "resetFilter": "Xóa bộ lọc"
+    "paginationOptions": {
+      "rowsPerPage": "Số bản ghi trên trang",
+      "page": "Trang",
+      "of": "của"
+    },
+    "defaultProps": {
+      "loading": "Đang tải dữ liệu...",
+      "noData": "Không có dữ liệu",
+      "recordsPerPage": "Số bản ghi trên trang"
     }
   },
   "validateMessage": {
@@ -58,7 +63,7 @@
       "actions": "Hành động",
       "enum": {
         "status": {
-          "draft": "Bản nháp",
+          "pending": "Chờ xử lý",
           "in_progress": "Đang tiến hành",
           "completed": "Đã hoàn thành"
         }
