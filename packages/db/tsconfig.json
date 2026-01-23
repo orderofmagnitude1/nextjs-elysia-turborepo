@@ -5,7 +5,8 @@
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "dist",
-    "composite": true,
-    "strictNullChecks": true
-  }
+    "composite": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

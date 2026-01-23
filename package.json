@@ -1,14 +1,12 @@
 {
   "name": "nextjs-elysia-turbo",
   "version": "1.0.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "type": "module",
   "scripts": {
     "dev": "turbo dev",
     "build": "turbo build",
+    "lint": "pnpm dlx ultracite check",
+    "lint:fix": "pnpm dlx ultracite fix",
     "check-types": "turbo check-types",
     "db:studio": "turbo -F @repo/db db:studio",
     "db:generate": "turbo -F @repo/db db:generate",

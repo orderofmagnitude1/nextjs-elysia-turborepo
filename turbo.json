@@ -8,7 +8,7 @@
       "outputs": ["dist/**", ".next/**"]
     },
     "lint": {
-      "dependsOn": ["^lint"]
+      "cache": false
     },
     "check-types": {
       "dependsOn": ["^check-types"]
@@ -22,16 +22,13 @@
       "persistent": true
     },
     "db:migrate": {
-      "cache": false,
-      "persistent": true
+      "cache": false
     },
     "db:generate": {
-      "cache": false,
-      "persistent": true
+      "cache": false
     },
     "db:seed": {
-      "cache": false,
-      "persistent": true
+      "cache": false
     }
   }
 }

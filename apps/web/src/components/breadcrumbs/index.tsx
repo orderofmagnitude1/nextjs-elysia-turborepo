@@ -39,6 +39,7 @@ export default function CustomBreadcrumbs() {
 	const [breadcrumbs, setBreadcrumbs] = useState<CustomBreadcrumbsProps[]>([]);
 	const [backHref, setBackHref] = useState<string>("");
 
+	// biome-ignore lint/correctness/useExhaustiveDependencies: should effect on t change
 	useEffect(() => {
 		const pathParts = pathname.split("/").filter(Boolean);
 
