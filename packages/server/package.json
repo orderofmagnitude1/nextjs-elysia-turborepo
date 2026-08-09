@@ -16,7 +16,7 @@
     "better-auth": "catalog:",
     "drizzle-orm": "catalog:",
     "elysia": "catalog:",
-    "nanoid": "^5.1.6",
+    "nanoid": "^5.1.16",
     "nodemailer": "^7.0.12",
     "react": "catalog:",
     "resend": "^6.7.0"
