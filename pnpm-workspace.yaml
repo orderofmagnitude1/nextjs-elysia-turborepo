@@ -21,7 +21,7 @@ catalog:
   drizzle-orm: ^0.44.7
   drizzle-typebox: ^0.3.3
   "@sinclair/typebox": ^0.34.41
-  elysia: 1.4.19
+  elysia: 1.4.29
   react: ^19.2.3
   react-dom: ^19.2.3
   typescript: ^5
