@@ -17,7 +17,7 @@
     "drizzle-orm": "catalog:",
     "elysia": "catalog:",
     "nanoid": "^5.1.6",
-    "nodemailer": "^7.0.12",
+    "nodemailer": "^10.1.4",
     "react": "catalog:",
     "resend": "^6.7.0"
   },
